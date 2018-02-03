@@ -1,7 +1,11 @@
 # Atom text snippets for Hugo
 
-Snippet | Tab Trigger | Output
---- | --- | ---
+Heavily inspired by [regisphilibert/Hugo-Snippets (Hugo Snippets for Sublime Text 3!)](https://github.com/regisphilibert/Hugo-Snippets)
+
+Use "HTML (Go)" as a language type.
+
+Snippet | Tab trigger | Output
+:---|:---|:---
 Curlies | __x__ | `{{ }}`
 Dot | __dot__ | `{{ . }}`
 If | __if__ | `{{ if }} {{ end }}`
