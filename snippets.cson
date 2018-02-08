@@ -54,3 +54,6 @@
   'Block define':
     'prefix': 'define'
     'body': '{{ define "${1:main}" }}\n\t$2\n{{ end }}'
+  'Comment':
+    'prefix': 'comm'
+    'body': '{{/* $1 */}}'
