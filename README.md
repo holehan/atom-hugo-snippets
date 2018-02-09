@@ -28,6 +28,6 @@ Use "HTML (Go)" as a language type.
 | Partial      | **partial** | `{{ partial "" . }}`               |
 | Block        | **block**   | `{{ block "main" . }} {{ end }}`   |
 | Block define | **define**  | `{{ define "block" }} {{ end }}`   |
-| Comment      | **comm**    | `{{/* */}}`                        |
-| Variable     | **vars**    | `{{ $var := what }}`               |
+| Comment      | **comment** | `{{/* */}}`                        |
+| Variable     | **var**     | `{{ $var := what }}`               |
 | Debug        | **debug**   | `{{ printf "%#v" }}`               |
