@@ -1,0 +1,81 @@
+'.text.gohtml':
+  'Curlies':
+    'prefix': 'x'
+    'body': '{{ $1 }}'
+  'Dot':
+    'prefix': 'dot'
+    'body': '{{ . }}'
+  'If':
+    'prefix': 'if'
+    'body': """
+      {{ if $1 }}
+        $2
+      {{ end }}
+    """
+  'If/Else':
+    'prefix': 'ife'
+    'body': """
+      {{ if $1 }}
+        $2
+      {{ else }}
+        $3
+      {{ end }}
+    """
+  'If/Else if':
+    'prefix': 'ifei'
+    'body': """
+      {{ if $1 }}
+        $2
+      {{ else if $3 }}
+        $4
+      {{ end }}
+    """
+  'With':
+    'prefix': 'with'
+    'body': """
+      {{ with $1 }}
+        $2
+      {{ end }}
+    """
+  'With/Else':
+    'prefix': 'withe'
+    'body': """
+      {{ with $1 }}
+        $2
+      {{ else }}
+        $3
+      {{ end }}
+    """
+  'Range':
+    'prefix': 'range'
+    'body': """
+      {{ range $1 }}
+        $2
+      {{ end }}
+    """
+  'Partial':
+    'prefix': 'partial'
+    'body': '{{ partial "$1" . }}'
+  'Block':
+    'prefix': 'block'
+    'body': """
+      {{ block "${1:main}" ${2:.} }}
+        $3
+      {{ end }}
+    """
+  'Block define':
+    'prefix': 'define'
+    'body': """
+      {{ define "${1:main}" }}
+        $2
+      {{ end }}
+    """
+  'Comment':
+    'prefix': 'comment'
+    'body': '{{/* $1 */}}'
+  'Variable':
+    'prefix': 'var'
+    'body': '{{ \$${1:var} := $2 }}'
+  'Debug':
+    'prefix': 'debug'
+    'body': '{{ printf "%#v" $1 }}'
