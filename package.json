@@ -1,0 +1,12 @@
+{
+  "name": "hugo-snippets",
+  "version": "0.1.0",
+  "description": "Hugo Snippets",
+  "keywords": ["snippets", "hugo"],
+  "repository": "https://github.com/holehan/atom-hugo-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
