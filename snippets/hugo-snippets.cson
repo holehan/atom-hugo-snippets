@@ -73,3 +73,9 @@
   'Comment':
     'prefix': 'comment'
     'body': '{{/* $1 */}}'
+  'Variable':
+    'prefix': 'var'
+    'body': '{{ \$${1:var} := $2 }}'
+  'Debug':
+    'prefix': 'debug'
+    'body': '{{ printf "%#v" $1 }}'
