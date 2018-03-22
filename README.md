@@ -2,7 +2,7 @@
 
 Snippets for [Hugo's Go templates](https://gohugo.io/templates/introduction/).
 
-Heavily inspired by [regisphilibert/Hugo-Snippets (Hugo Snippets for Sublime Text 3!)](https://github.com/regisphilibert/Hugo-Snippets)
+Heavily inspired by [regisphilibert/Sublime-Hugo-Snippets](https://github.com/regisphilibert/Sublime-Hugo-Snippets)
 
 ## Installation
 
